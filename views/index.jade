@@ -1,0 +1,37 @@
+﻿extends layout
+
+block content
+  h1= title
+  p User the drop down list to find UseNet providers. Pretty cool, right?
+
+
+block list
+- var serviceList = services
+  script(type='text/javascript').  
+    var generateblocklist = function(provider){
+      var backBones;
+      for (service in services) {
+        var tempBack;
+        if (service.Provider.some(Name == provider)) {
+          tempBack = backBones.concat(service.Backbones);
+        }
+        backBones = tempBack;
+      }
+    };
+    var selectprimary = function(a){      
+      var x = a.selectedIndex;      
+      var selected = document.getElementById('primary');
+      var provider = document.getElementById('serviceoption')[x].innerHTML;
+      selected.innerHTML = provider;
+      generateblocklist(provider);
+    };
+      
+  select#serviceoption(onchange='selectprimary(this)')    
+    each service in services      
+      each provider in service.Provider
+        option(url='#{provider.Url}') #{provider.Name}
+
+  p#primary
+
+  select#blockoptions(hidden)
+    
