@@ -6,32 +6,13 @@ block content
 
 
 block list
-- var serviceList = services
-  script(type='text/javascript').  
-    var generateblocklist = function(provider){
-      var backBones;
-      for (service in services) {
-        var tempBack;
-        if (service.Provider.some(Name == provider)) {
-          tempBack = backBones.concat(service.Backbones);
-        }
-        backBones = tempBack;
-      }
-    };
-    var selectprimary = function(a){      
-      var x = a.selectedIndex;      
-      var selected = document.getElementById('primary');
-      var provider = document.getElementById('serviceoption')[x].innerHTML;
-      selected.innerHTML = provider;
-      generateblocklist(provider);
-    };
-      
-  select#serviceoption(onchange='selectprimary(this)')    
-    each service in services      
-      each provider in service.Provider
-        option(url='#{provider.Url}') #{provider.Name}
+  div(class='dropdown')
+    button(class='btn btn-default dropdown-toggle', type='button', id='serviceMenu', data-toggle='dropdown')      Choose Current Provider
+      span(class='caret')
+    ul(class='dropdown-menu', id='serviceoption', aria-labelledby='serviceMenu')
 
-  p#primary
+  // select#serviceoptionOld(onchange='selectprimary(this)')
+  div#primary(class='selected-provider')
 
   select#blockoptions(hidden)
     

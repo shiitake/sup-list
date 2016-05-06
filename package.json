@@ -2,9 +2,7 @@
   "name": "SUP-List",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+"main": "app.js",
   "description": "Simple Usenet Provider List",
   "author": {
     "name": "Shannon Barrett",

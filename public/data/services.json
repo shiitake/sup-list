@@ -3,18 +3,18 @@
 	"Name" : "Altopia",
 	"Country": "US",
 	"Backbones":[{"Name": "Altopia","Url": "https://www.altopia.com"}],
-	"Providers" :[{"Name": "Altopia","Url": "https://www.altopia.com"}],
-	"Resellers" : []
+	"Provider" :[{"Name": "Altopia","Url": "https://www.altopia.com"}],
+	"Reseller Map" : []
 },
 {
 	"Name" : "Giganews",
 	"Country": "US",
 	"Backbones":[{"Name": "Giganews","Url": "http://www.giganews.com"}],
-	"Providers" :[
+	"Provider" :[
 		{"Name": "Gaganews","Url": "http://www.giganews.com"},
 		{"Name": "Supernews.com","Url": "http://www.supernews.com"}
 		],
-	"Resellers" : [
+	"Reseller Map" : [
 		{"Name": "PowerUsenet","Url": "http://www.powerusenet.com"},
 		{"Name": "RhinoNewsGroups","Url": "http://www.rhinonewsgroups.com"},
 		{"Name": "Usenet.net","Url": "http://www.usenet.net"}]
@@ -28,14 +28,14 @@
 		{"Name": "Eweka Internet Services","Url": "http://www.eweka.nl"},
 		{"Name": "Readnews","Url": "http://www.readnews.com"}
 	],
-	"Providers" :[
+	"Provider" :[
 		{"Name": "Easynews","Url": "http://www.easynews.com"},
 		{"Name": "Eweka Internet Services","Url": "http://www.eweka.nl"},
 		{"Name": "NewsHosting","Url": "http://www.newshosting.com"},
 		{"Name": "TweakNews","Url": "http://www.tweaknews.eu"},
 		{"Name": "UsenetServer","Url": "http://www.usenetserver.com"}
 	],
-	"Resellers" : [
+	"Reseller Map" : [
 		{"Name": "123Usenet","Url": "http://www.123usenet.nl"},
 		{"Name": "Alibis","Url": "http://www.alibis.com"},
 		{"Name": "AltBinaries","Url": "http://www.altbinaries.com"},
@@ -115,15 +115,15 @@
 	"Name" : "Searchtech Limited (US)",
 	"Country": "US",
 	"Backbones":[{"Name": "AstraWeb (US)","Url": "http://www.astraweb.com"}],
-	"Providers" :[{"Name": "Astraweb (US)","Url": "http://www.astraweb.com"}],
-	"Resellers" : []
+	"Provider" :[{"Name": "Astraweb (US)","Url": "http://www.astraweb.com"}],
+	"Reseller Map" : []
 },
 {
 	"Name" : "Cheapnews",
 	"Country": "EU",
 	"Backbones":[{"Name": "Cheapnews","Url": "http://www.cheapnews.eu"}],
-	"Providers" :[{"Name": "Cheapnews","Url": "http://www.cheapnews.eu"}],
-	"Resellers" : [
+	"Provider" :[{"Name": "Cheapnews","Url": "http://www.cheapnews.eu"}],
+	"Reseller Map" : [
 		{"Name": "Bulknews","Url": "http://www.bulknews.eu"},
 		{"Name": "UsenetDiscounter.com","Url": "http://www.usenetdiscounter.com"}
 	]
@@ -132,15 +132,15 @@
 	"Name" : "Searchtech Limited (NL)",
 	"Country": "EU",
 	"Backbones":[{"Name": "AstraWeb (NL)","Url": "http://www.astraweb.com"}],
-	"Providers" :[{"Name": "AstraWeb (NL)","Url": "http://www.astraweb.com"}],
-	"Resellers" : []
+	"Provider" :[{"Name": "AstraWeb (NL)","Url": "http://www.astraweb.com"}],
+	"Reseller Map" : []
 },
 {
 	"Name" : "XS News",
 	"Country": "EU",
 	"Backbones":[{"Name": "XS News","Url": "http://www.xsnews.nl"}],
-	"Providers" :[{"Name": "XS News","Url": "http://www.xsnews.nl"}],
-	"Resellers" : [
+	"Provider" :[{"Name": "XS News","Url": "http://www.xsnews.nl"}],
+	"Reseller Map" : [
 		{"Name": "4UX.nl", "Url": "http://www.4ux.nl"},
 		{"Name": "Aeton", "Url": "http://www.aeton.nl"},
 		{"Name": "AstiNews", "Url": "https://astinews.de"},
