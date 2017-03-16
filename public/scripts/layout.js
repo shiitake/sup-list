@@ -65,8 +65,8 @@ function excludeService(exclude, data){
 		}
 	}
 	populateDropdrown("#backupprovider", providerList);
-	}
-}
+};
+
 
 
 
