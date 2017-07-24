@@ -1,9 +1,9 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 
-function ServerWrapper (props) {	
+function ServerWrapper (props) {
 	return (
-		<li value={props.name}>{props.name}</li>
+		<li key={props.name} value={props.name}><a href="#">{props.name}</a></li>
 	)
 }
 

@@ -6,10 +6,10 @@ var ServersContainer = React.createClass({
 	getInitialState: function() {
 		return {
 			servers: []
-		}		
+		}
 	},
 	componentDidMount: function() {
-		var servers = serviceHelpers.getServerNames();		
+		var servers = serviceHelpers.getServerNames();
 		this.setState({	servers: servers,});
 	},
 	render: function() {

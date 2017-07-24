@@ -1,0 +1,76 @@
+backbones: {
+  altopia: {
+    name: "Altopia",
+    url: "https://www.altopia.com"
+  },
+  giganews: {
+    name: "Giganews",
+    url: "http://www.giganews.com"
+  },
+  highwinds: {
+    name: "Highwinds Network Group",
+    url: "http://www.highwinds.com"
+  },
+  baseip: {
+    name: "Base IP",
+    url: "https://www.baseip.com"
+  },
+  ewaka: {
+    name: "Eweka Internet Services",
+    url: "http://www.eweka.nl"
+  },
+  readnews: {
+    name: "Readnews",
+    url: "http://www.readnews.com"
+  },
+  astrawebus: {
+    name: "AstraWeb (US)",
+    url: "http://www.astraweb.com"
+  },
+  cheapnews: {
+    name: "Cheapnews",
+    url: "http://www.cheapnews.eu"
+  },
+  astrawebnl: {
+    name: "AstraWeb (NL)",
+    url: "http://www.astraweb.com"
+  }
+  xsnews: {
+    name: "XS News",
+    url: "http://www.xsnews.nl"
+  }
+}
+
+Main
+  reseller list
+
+Backup list
+  reseller
+  backbone
+  resellers who are on a different backbone
+
+
+customer selects their reseller or provider
+
+/resellers
+  name
+  url
+  service
+
+from here we can get the service name
+we can then pull the backbone from the service list
+
+/service
+  name
+  country
+  backbones
+
+then we can find other services that don't have that backbone
+
+/backbone
+  name
+  url
+  service
+
+
+
